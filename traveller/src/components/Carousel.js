@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import beach from "../img/beach.jpg";
-import resort from "../img/resort.jpg";
-import camp from "../img/camp.jpg";
-import mountain from "../img/mountain.jpg";
-import gulp from "../img/gulp.jpg";
+import beach from "../img/caro (3).jpg";
+import resort from "../img/naran (1).jpg";
+import camp from "../img/balochroad.jpg";
+import mountain from "../img/karachi.jpg";
+import gulp from "../img/shan.jpg";
 import {
   Carousel,
   CarouselItem,
@@ -16,7 +16,7 @@ const items = [
   {
     src: resort,
     altText: "Slide 1",
-    caption: "Resorts"
+    caption: "Naran"
   },
   {
     src: gulp,
@@ -26,17 +26,17 @@ const items = [
   {
     src: camp,
     altText: "Slide 3",
-    caption: "Camping"
+    caption: "Balochistan Road"
   },
   {
     src: beach,
     altText: "Slide 4",
-    caption: "Beach"
+    caption: "Badshahi Mosque"
   },
   {
     src: mountain,
     altText: "Slide 5",
-    caption: "Mountain Climbing"
+    caption: "Karachi"
   }
 ];
 

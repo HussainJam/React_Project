@@ -8,7 +8,7 @@ const Login =()=>
             <div className="container"  >
             <div className="row" >
                 <div className="col-md-4 offset-4" >
-                    <form className="form bg-secondary rounded-3 mt-5" >
+                    <form className="form bg-info rounded-3 mt-5" >
                         <div className="form-group d-grid gap-1 col-9 py-3 mx-auto">
                             <h3 className="head">Please Login</h3>
                             <input type="text" className="mail mb-2 form-control-lg text-muted" placeholder="Email Address" />
@@ -17,14 +17,12 @@ const Login =()=>
                             <input type="checkbox" className="form-check-input" id="cb" />
                             <label for="cb" className="form-check-label">Remember Me</label>
                             </div>
-                            <input type="button" className="btn-info mt-2 mb-3 text-white rounded-3 "  name="btn" value="Login" />
+                            <input type="button" className="btn-info mt-2 mb-3 text-white"  name="btn" value="Login" />
                         </div>    
                     </form>
                 </div>
             </div>
         </div>
-            
-        
         </div>
     )
 }
