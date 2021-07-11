@@ -15,27 +15,27 @@ import {
 const items = [
   {
     src: resort,
-    altText: "Slide 1",
+    altText: "KPK",
     caption: "Naran"
-  },
-  {
+  },  
+    {
     src: gulp,
-    altText: "Slide 2",
-    caption: "Rock "
+    altText: "Skardu",
+    caption: "Shangrilla"
   },
   {
     src: camp,
-    altText: "Slide 3",
+    altText: "Balochistan",
     caption: "Balochistan Road"
   },
   {
     src: beach,
-    altText: "Slide 4",
+    altText: "Lahore",
     caption: "Badshahi Mosque"
   },
   {
     src: mountain,
-    altText: "Slide 5",
+    altText: "Sindh",
     caption: "Karachi"
   }
 ];
