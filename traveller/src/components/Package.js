@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Container, Row, CardColumns, Badge } from "reactstrap";
 import TourCard from "./TourCard";
 import "../App.css";
-import imgCard1 from "../img/img-card (1).jpg";
-import imgCard2 from "../img/img-card (2).jpg";
+import imgCard1 from "../img/khunjrab (1).jpg";
+import imgCard2 from "../img/khunjrab (2).jpg";
 import imgCard3 from "../img/img-card (3).jpg";
 import imgCard4 from "../img/img-card (4).jpg";
 import imgCard5 from "../img/img-card (5).jpg";
@@ -18,16 +18,16 @@ const tours = [
     category: ["resort", "honeymoon"],
     img: imgCard1,
     alt: "blah blah",
-    title: "Seaside Resort",
-    subtitle: "Batangas Resort"
+    title: "Khunjarab",
+    subtitle: "Baltistan"
   },
   {
     id: 2,
     category: ["beach", "mountain"],
     img: imgCard2,
     alt: "blah blah",
-    title: "Isla de Gigantes",
-    subtitle: "Carles, Iloilo"
+    title: "Kurakuram Highway",
+    subtitle: "K2"
   },
   {
     id: 3,
