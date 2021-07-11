@@ -19,19 +19,19 @@ class Contact extends Component {
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Phone width="50" height="55" strokeWidth="1" />
-                  <p>0912 345 6789</p>
+                  <p>+923085380232</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <MapPin width="55" height="55" strokeWidth="1" />
-                  <p>Manila City, Philippines</p>
+                  <p>Kohat City, Pakistan</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Mail width="55" height="55" strokeWidth="1" />
-                  <p>manilatourism@manila.ph</p>
+                  <p>pakistantourism@pak.ph</p>
                 </div>
               </Col>
             </Row>
