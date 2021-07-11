@@ -9,15 +9,19 @@ import {
 import NavbarMain from "./components/Navbar";
 import Home from "./pages/Home";
 import Tour from "./pages/Tour";
+import Login from "./components/Login";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarMain />
         <Router>
-          <Home path="/" />
-          <Tour path="tour" />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/tour" component={Tour} />
+          <Route exact path="/login" component={Login} >
+        </Route>
+        </Switch>
         </Router>
       </div>
     );

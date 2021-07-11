@@ -10,7 +10,16 @@ import {
   Container,
   Button
 } from "reactstrap";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import "../App.css";
+import Login from "./Login";
+
+
 
 class NavbarMain extends React.Component {
   constructor(props) {
@@ -54,12 +63,14 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
-                <Button color="success">Login</Button>{" "}
+                <Button color="success"> <Link className="nav-link" to="/login">Login</Link></Button>{" "}
               </Nav>
             </Collapse>
           </Container>
         </Navbar>
+       
       </div>
+      
     );
   }
 }

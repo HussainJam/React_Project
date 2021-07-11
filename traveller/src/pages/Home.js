@@ -6,11 +6,14 @@ import Package from "../components/Package";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import NavbarMain from "../components/Navbar";
 
 class Home extends Component {
   render() {
     return (
       <div id='home'>
+
+      <NavbarMain></NavbarMain>
         <Hero />
         <About />
         <Package />
