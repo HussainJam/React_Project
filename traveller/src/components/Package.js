@@ -4,18 +4,18 @@ import TourCard from "./TourCard";
 import "../App.css";
 import imgCard1 from "../img/khunjrab (1).jpg";
 import imgCard2 from "../img/khunjrab (2).jpg";
-import imgCard3 from "../img/img-card (3).jpg";
-import imgCard4 from "../img/img-card (4).jpg";
-import imgCard5 from "../img/img-card (5).jpg";
-import imgCard6 from "../img/img-card (6).jpg";
-import imgCard7 from "../img/img-card (7).jpg";
-import imgCard8 from "../img/img-card (8).jpg";
-import imgCard9 from "../img/img-card (9).jpg";
+import imgCard3 from "../img/caro (2).jpg";
+import imgCard4 from "../img/caro (4).jpg";
+import imgCard5 from "../img/caro (1).jpg";
+import imgCard6 from "../img/beach.jpg";
+import imgCard7 from "../img/q.jpg";
+import imgCard8 from "../img/kp.jpg";
+import imgCard9 from "../img/is.jpg";
 import imgBarobaybay from "../img/barobaybay.jpg";
 const tours = [
   {
     id: 1,
-    category: ["resort", "honeymoon"],
+    category: ["mountain", "climbing"],
     img: imgCard1,
     alt: "blah blah",
     title: "Khunjarab",
@@ -23,7 +23,7 @@ const tours = [
   },
   {
     id: 2,
-    category: ["beach", "mountain"],
+    category: ["beach", "mountain", "climbing"],
     img: imgCard2,
     alt: "blah blah",
     title: "Kurakuram Highway",
@@ -31,67 +31,67 @@ const tours = [
   },
   {
     id: 3,
-    category: ["resort", "honeymoon"],
+    category: ["mosquee", "tomb"],
     img: imgCard3,
     alt: "blah blah",
-    title: "The Farm",
-    subtitle: "San Benito, Batangas"
+    title: "Badshahi Mosque",
+    subtitle: "Lahore"
   },
   {
     id: 4,
     category: ["climbing", "mountain"],
     img: imgCard4,
     alt: "blah blah",
-    title: "Poog",
-    subtitle: "Cebu"
+    title: "Minar e Pakistan",
+    subtitle: "Punjab"
   },
   {
     id: 5,
-    category: ["resort", "honeymoon", "beach"],
+    category: ["mosquee", "tomb", "beach"],
     img: imgCard5,
     alt: "blah blah",
-    title: "Koro Sun Resort & Rainforest Spa",
-    subtitle: "Vanua Levu, Fiji"
+    title: "Kartarpur",
+    subtitle: "Sikh"
   },
   {
     id: 6,
-    category: ["climbing", "mountain"],
+    category: ["beach", "mountain"],
     img: imgCard6,
     alt: "blah blah",
-    title: "Pi Shan",
-    subtitle: "Yangshuo China"
+    title: "Gawadar",
+    subtitle: "CPEC"
   },
   {
     id: 7,
-    category: ["beach", "climbing"],
+    category: [, "tomb"],
     img: imgCard7,
     alt: "blah blah",
-    title: "El-Nido",
-    subtitle: "Palawan"
+    title: "Quiad e Azam Tomb",
+    subtitle: "Karachi"
   },
   {
     id: 8,
-    category: ["honeymoon", "beach", "resort"],
+    category: ["tomb", "beach", "mosquee"],
     img: imgCard8,
     alt: "blah blah",
-    title: "Shangri-La’s Boracay Resort and Spa",
-    subtitle: "Boracay Resort"
+    title: "Khyber Pass",
+    subtitle: "KPK"
   },
   {
     id: 9,
-    category: ["beach", "resort"],
+    category: ["beach", "mosquee"],
     img: imgCard9,
     alt: "blah blah",
-    title: "HUMANA Island Resort & Spa",
-    subtitle: "Palawan"
+    title: "Islamia Collage",
+    subtitle: "Peshawer"
   },
   {
     id: 10,
     category: ["camping", "beach"],
     img: imgBarobaybay,
     alt: "camping in the lake",
-    title: "Barobaybay Camp Site",
-    subtitle: "Barobaybay, Lavezares N. Samar"
+    title: "Camping in Gilgit",
+    subtitle: "Gilgit"
   }
 ];
 
@@ -99,10 +99,11 @@ const itemCategories = [
   "all",
   "beach",
   "mountain",
-  "resort",
+  "mosquee",
   "climbing",
   "camping",
-  "honeymoon"
+  "tomb",
+
 ];
 
 class Package extends Component {
