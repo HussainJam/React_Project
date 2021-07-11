@@ -21,7 +21,7 @@ const items = [
   {
     src: gulp,
     altText: "Slide 2",
-    caption: "Rock Climbing"
+    caption: "Rock "
   },
   {
     src: camp,
