@@ -3,7 +3,9 @@ import { Container, Row, Col, Button } from "reactstrap";
 import "../App.css";
 import NavbarMain from "../components/Navbar";
 // import tours from "../components/Package";
-import imgCard1 from "../img/img-card (1).jpg";
+
+// import imgCard1 from "../img/img-card (1).jpg";
+import khunjrab from "../img/khunjrab (1).jpg"
 import imgCard2 from "../img/img-card (2).jpg";
 import imgCard3 from "../img/img-card (3).jpg";
 import imgCard4 from "../img/img-card (4).jpg";
@@ -14,46 +16,32 @@ const Tour = () => (
   <div className="subComponent">
   <Container>
     <section className="tour-cover item-center">
-      <img src={imgCard1} alt="" />
-      <h1>Seaside Resort</h1>
-      <h4>Batangas Resort</h4>
+      <img src={khunjrab} alt="" />
+      <h1>Khunjarab</h1>
+      <h4>Baltistan</h4>
     </section>
     <section className="tour-info">
       <Row>
         <Col sm="8">
           <div className="tour-desc">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              imperdiet, sem id vehicula lacinia, mi purus lacinia mauris,
-              vitae mollis nisl elit in lorem. Suspendisse potenti. Cras
-              elementum ullamcorper tortor, rutrum convallis nunc tempor
-              tristique. Donec ut ipsum vel mauris hendrerit efficitur. Nullam
-              eget massa interdum, euismod nunc ac, maximus risus. Aliquam nec
-              rhoncus tortor. Suspendisse nulla diam, hendrerit a metus vitae,
-              rutrum hendrerit nisl. Nulla vel venenatis massa. Mauris lacinia
-              porttitor ex, a egestas nisi fringilla vitae. Nam fringilla leo
-              ante, id interdum sapien facilisis vel. Morbi ut suscipit nulla.
-              Sed vitae tempus elit, at laoreet urna.
+            Khunjerab Pass is the famous mountain of Pakistan. Khunjerab Pass is sometimes called “Khunerjab Pass”. It is located in the Karakoram 
+            Mountains on the northern border of Pakistan with China. The height of the Khunjerab Pass is 4693m. Khunjerab Pass is the 
+            border between Pakistan and China through the Karakoram Highway. The word Khunjerab Pass is derived from “Wakhi language”.
+             Chinese Ambassador Mr.Yao Jingsaid visit visa of Pakistan to Chinese citizens will be issued through Khunjerab Pass.
             </p>
             <p>
-              Morbi facilisis, odio vitae egestas pretium, mauris tortor
-              vulputate dolor, non interdum nunc tellus at dolor. Donec
-              condimentum et augue vitae volutpat. Fusce vitae laoreet sem.
-              Integer a justo sit amet nibh vehicula blandit. Suspendisse
-              faucibus venenatis egestas. In vulputate sapien sit amet ligula
-              vulputate, in consequat ex molestie. Curabitur hendrerit
-              pulvinar vehicula. Phasellus quis posuere tortor. Cras
-              pellentesque vehicula dui nec fermentum. Sed venenatis nunc
-              justo. Quisque metus est, volutpat quis scelerisque in,
-              fermentum sed lacus. Sed sed pretium massa. Aenean imperdiet
-              molestie turpis at egestas.
+            July is the peak season for tourists to visit Khunjerab Pass. The weather of Khunjerab Pass is too chilly. It’s a marvelous 
+            place with striking mountains and sceneries. There is no tea and food stalls at Khunjerab pass so take your eatables with you.
+             Khunjerab Pass has a very beautiful scenic view.There are many hotels and resorts in Khunjerab Pass for tourists. Bus service 
+             is available dai between Gilgit and Kashgar through the Karakorum highway. Many international tourists visit this place and relish the striking view. 
             </p>
           </div>
         </Col>
         <Col sm="4">
           <div className="tour-gallery">
-            <a href={imgCard1}>
-              <img src={imgCard1} alt="" />
+            <a href={khunjrab}>
+              <img src={khunjrab} alt="" />
             </a>
             <a href={imgCard2}>
               <img src={imgCard2} alt="" />
