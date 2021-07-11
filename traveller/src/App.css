@@ -1,6 +1,5 @@
 .cover-page {
   height: 100vh;
-  /* background: pink; */
 }
 
 .navDark {
@@ -9,6 +8,7 @@
 
 .nav-link {
   color: rgb(216, 216, 216) !important;
+  
 }
 
 .nav-link.active,
@@ -29,6 +29,9 @@
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+#login {
+  color:aquamarine;
 }
 
 #hero h1 {
