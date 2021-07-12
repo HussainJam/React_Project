@@ -8,7 +8,7 @@
 
 .nav-link {
   color: rgb(216, 216, 216) !important;
-  
+   
 }
 
 .nav-link.active,
@@ -30,11 +30,12 @@
   background-attachment: fixed;
   color: white;
 }
+
 #login {
   color:aquamarine;
 }
 
-#hero h1 {
+#hero #login h1 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   font-size: 60px;
@@ -208,21 +209,21 @@
 }
 
 #contactBody {
-  background: #6d613c;
-  color: rgba(0, 0, 0, 0.7);
+  background: #44a844;
+  color: rgba(235, 224, 224, 0.7);
 }
 
 #footerBody {
-  background: #383322;
-  color: rgba(0, 0, 0, 0.7);
+  background: #383734;
+  color: rgba(240, 228, 228, 0.7);
 }
 
 #footerBody a {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(224, 212, 212, 0.6);
 }
 
 #footerBody a:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: #44a844;
 }
 
 .svg-card-2 {
@@ -247,8 +248,9 @@
 }
 
 .headerTitle p {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(247, 238, 238, 0.7);
 }
+
 
 * {
   transition-duration: 0.3s;

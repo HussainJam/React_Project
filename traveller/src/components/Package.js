@@ -63,7 +63,7 @@ const tours = [
   },
   {
     id: 7,
-    category: [, "tomb"],
+    category: ["tomb"],
     img: imgCard7,
     alt: "blah blah",
     title: "Quiad e Azam Tomb",
@@ -123,7 +123,7 @@ class Package extends Component {
         <Container>
           <header className="headerTitle text-center">
             <h1>Tour Packages</h1>
-            <p>A Great Collection of Our Tour Packages</p>
+            <h4>A Great Collection of Our Tour Packages</h4>
           </header>
           <section className="packageBody text-center">
             {itemCategories.map((badge, index) => (

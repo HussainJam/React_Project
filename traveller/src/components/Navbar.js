@@ -2,7 +2,6 @@ import React from "react";
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
@@ -11,10 +10,7 @@ import {
   Button
 } from "reactstrap";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  BrowserRouter as Router,Switch, Link
 } from "react-router-dom";
 import "../App.css";
 import Login from "./Login";
@@ -47,9 +43,7 @@ class NavbarMain extends React.Component {
         >
           <Container>
             <NavbarBrand href="#">Pakistan Tourism</NavbarBrand>
-           { // <NavbarToggler onClick={this.toggle} />
-          }
-            <Collapse isOpen={this.state.isOpen} navbar>
+              <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink href="#about">About</NavLink>
@@ -63,9 +57,12 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
-                <Button color="success"> <Link className="nav-link" to="/login">Login</Link></Button>{" "} 
-
-              </Nav>
+                <Button color="success" size="sm"> <Link className="nav-link" to="/login">Login</Link></Button>{" "} 
+                <NavItem>
+                <Button color="primary" size="sm"> <Link className="nav-link px-2" to="/login">Sign Up</Link></Button>{" "}           
+                </NavItem>
+                </Nav>
+              
             </Collapse>
           </Container>
         </Navbar>

@@ -17,7 +17,7 @@ class Services extends Component {
               <Row>
                 <Col lg="3" md="6" sm="6">
                   <div className="svg-card-2">
-                    <Trending width="50" height="55" strokeWidth="1" />
+                    <Trending width="50" height="55" strokeWidth="1" href="#"/>
                     <p>Promote Best Tours</p>
                   </div>
                 </Col>
