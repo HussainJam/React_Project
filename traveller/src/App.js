@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Tour from "./pages/Tour";
 import Login from "./components/Login";
 import SignUp from "./components/Signup";
+import RoomReservation from "./components/RoomReservation";
 
 class App extends Component {
   render() {
@@ -19,7 +20,9 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/tour" component={Tour} />
           <Route exact path="/login" component={Login} />
-          <Route exact path="/Signup" component={SignUp} > 
+          <Route exact path="/Signup" component={SignUp} />
+          <Route exact path="/RoomReservation" component={RoomReservation}> 
+
         </Route>
         </Switch>
         </Router>

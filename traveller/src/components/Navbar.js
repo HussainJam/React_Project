@@ -57,12 +57,9 @@ class NavbarMain extends React.Component {
                 <NavItem>
                   <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
-                <Button color="success" size="sm"> <Link className="nav-link" to="/login">Login</Link></Button>{"  "} 
-                <NavItem>
-                <Button color="primary" size="sm"> <Link className="nav-link px-2" to="/Signup">Sign Up</Link></Button>{"  "}           
-                </NavItem>
-                </Nav>
-              
+                <Button color="success" size="sm" ><Link className="nav-link px-" to="/login">Login</Link></Button>
+                <Button outline color="primary" size="sm"><Link className="nav-link px-" to="/Signup">Create Account</Link></Button>
+                 </Nav>    
             </Collapse>
           </Container>
         </Navbar>

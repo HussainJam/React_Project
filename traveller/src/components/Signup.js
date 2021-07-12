@@ -13,6 +13,7 @@ const Signup =()=>
                         <h3 className="col-9 mb-5 text-center">Sign Up</h3>
                         <div className="form-group">
                             <input type="text" placeholder="*Full Name" id="place" className="col-9 rounded mb-4 " required />
+                            <input type="Password" placeholder="*Create Password" id="place" className="col-9 rounded mb-4" required />
                             <input type="email" placeholder="*Email Address" id="place" className="col-9 rounded mb-4" required />
                             <input type="tel" placeholder="*Phone Number" id="place" className=" col-9 rounded mb-4" required />
                             <input type="submit" className="btn-primary col-9 rounded mb-4 " id="place" value="CREATE ACCOUNT" />
