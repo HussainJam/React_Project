@@ -17,7 +17,7 @@ class About extends Component {
           <Container>
             <header className="headerTitle text-center">
               <h1>About Travel</h1>
-              <p>Tour Guide & Private Guided Tours</p>
+              <h4>Tour Guide & Private Guided Tours</h4>
             </header>
             <section className="svg-group text-center subComponent">
               <Row>

@@ -8,6 +8,7 @@ import {
 import Home from "./pages/Home";
 import Tour from "./pages/Tour";
 import Login from "./components/Login";
+import SignUp from "./components/Signup";
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/tour" component={Tour} />
-          <Route exact path="/login" component={Login} >
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/Signup" component={SignUp} > 
         </Route>
         </Switch>
         </Router>
