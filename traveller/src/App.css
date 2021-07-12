@@ -30,6 +30,20 @@
   background-attachment: fixed;
   color: white;
 }
+#sign-body{
+  /* background:linear-gradient(-90deg, white 50%,rgb(248, 236, 236) 50%); */
+  background: url("./img/sign (2).jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+#place{
+padding:0.5em; 
+  
+}
+/* a{
+  color:black;
+} */
 
 #login {
   color:aquamarine;
