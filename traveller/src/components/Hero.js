@@ -8,9 +8,7 @@ const Hero = () => (
         <div className="item-center">
           <h1>Pakistan Tourism</h1>
           <h3>Tours | Travel | Enjoy</h3>
-          <Button outline color="warning" href="/RoomReservation">
-            Room Reservation
-          </Button>
+          <Button outline color="warning" href="/RoomReservation"> Hotel Room Reservation </Button>
         </div>
       </section>
     </main>
