@@ -23,7 +23,7 @@ class About extends Component {
               <Row>
                 <Col lg="3" md="6" sm="6">
                   <div className="svg-card">
-                    <Award width="48" height="48" strokeWidth="1" />
+                  <Award width="48" height="48" strokeWidth="1" />
                     <p>Best Price Guarantee</p>
                   </div>
                 </Col>

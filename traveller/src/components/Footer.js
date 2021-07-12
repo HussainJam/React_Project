@@ -52,7 +52,7 @@ class Footer extends Component {
             </Row>
             <hr />
             <br />
-            <p>copyright 2021 | Pakistan Tourism </p>
+            <p>copyright 2021 | Pakistan Tourism | Allrights Reserved. </p>
           </footer>
         </Container>
       </div>
