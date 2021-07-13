@@ -33,6 +33,7 @@ class NavbarMain extends React.Component {
   }
   render() {
     return (
+  
       <div>
         <Navbar
           color="faded"
@@ -63,9 +64,9 @@ class NavbarMain extends React.Component {
             </Collapse>
           </Container>
         </Navbar>
-       
-      </div>
-      
+        </div> 
+
+     
     );
   }
 }

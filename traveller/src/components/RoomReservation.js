@@ -5,9 +5,9 @@ import React from "react";
 const RoomReservation =()=>
 {
     return(
-        <>
-        haye
-        </>
+        <div>
+        
+        </div>
 
     )
 }
